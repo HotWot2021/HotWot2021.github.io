@@ -95,7 +95,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : Blue; /*ZYF: link color*/
+    color              : #e4a736;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -114,7 +114,7 @@ a:active {
 a:hover,
 a:focus {
     text-decoration : none;
-    color           : Brown; /*ZYF: link hover color*/
+    color           : #999999;
     }
 
 p {
@@ -225,7 +225,7 @@ button:focus,
 .navbar-brand {
     padding : 0;
     height  : auto;
-    margin  : 2px 0 !important;
+    margin  : 5px 0 !important;
     }
 
 @media (max-width : 768px) {
@@ -246,7 +246,7 @@ button:focus,
     padding        : 30px 0;
     background     : transparent;
     margin         : 0;
-    font-size      : 18px;  /*ZYF: navbar font size*/
+    font-size      : 15px;
     text-transform : uppercase;
     }
 
@@ -264,7 +264,7 @@ button:focus,
     }
 
 .navbar-toggle:hover {
-    color: DarkGreen; /*#fff;*/
+    color: #fff;
     }
 
 .navbar-toggle .icon-bar {
@@ -278,7 +278,7 @@ button:focus,
     }
 
 .main-menu .nav li a {
-    color       : White; /*ZYF: top nav menu text color*/
+    color       : #ffffff;
     font-weight : 500;
     padding     : 15px 0 15px 30px;
     }
@@ -356,7 +356,7 @@ button:focus,
 .jumbotron {
     background            : url("../img/img-jumbotron-bg.jpg");
     background-size       : cover;
-    padding               : 100px;
+    padding               : 0;
     margin                : 0;
     height                : 100vh;
     min-height            : 800px;
@@ -374,36 +374,34 @@ button:focus,
     top               : 50%;
     left              : 0;
     right             : 0;
-    height            : 55%;    /*ZYF: modify here to adjust text position within jumbotron*/
+    height            : 30%;
     width             : 100%;
     margin            : 0 auto;
     padding           : 0 10%;
     transform         : translateY(-50%);
     -webkit-transform : translateY(-50%);
     -moz-transform    : translateY(-50%);
-    color       : yellow; 
     }
 
 .jumbotron .content h1 {
+    color       : #ffffff;
     font-weight : bold;
-    font-size   : 28px;
+    font-size   : 30px;
     }
 
 .jumbotron .content p.lead {
-    font-size   : 21px;
+    font-size   : 24px;
     line-height : 1.5em;
-    color       : yellow;
+    color       : rgb(255, 255, 255);
     }
 
 .jumbotron .content .event-date {
-    font-size     : 22px;
+    font-size     : 24px;
     margin-bottom : 40px;
     }
 
 .jumbotron .btn {
-    font-size    :   14pt;
-    margin-top   : 40px;
-    border-color : Blue;
+    margin-top : 40px;
     }
 
 @media (max-width : 991px) {
